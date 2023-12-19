@@ -1,14 +1,16 @@
 # ROS2 mypkg
 [![test](https://github.com/daitotomita/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/daitotomita/robosys2023/actions/workflows/test.yml)
-  * ロボットシステム学2023の練習リポジトリです
+  * ロボットシステム学2023の練習リポジトリ
 ##  talker & listener 
 ### 入力と実行結果
 端末を2つ用意する
   * 端末1
 ```
+$ ros2 run mypkg talker
 ```
   * 端末2
 ```
+$ ros2 run mypkg listener
 ```
 
 ## 必要なソフトウェア
