@@ -8,7 +8,7 @@
  * listener
 	* countupからメッセージをもらって表示する
  
-### 入力と実行結果
+### 入力
 端末を2つ用意する
   * 端末1
 ```
@@ -18,7 +18,7 @@ $ ros2 run mypkg talker
 ```
 $ ros2 run mypkg listener
 ```
-実行結果は以下の通りである
+### 実行結果
   * 端末2
 ```
 $ ros2 run mypkg listener
@@ -34,6 +34,33 @@ $ ros2 run mypkg listener
 [INFO] [1702987773.864064285] [listener]: Listen: 59
 [INFO] [1702987774.364653107] [listener]: Listen: 60
 ・・・
+```
+
+## launchファイル
+### ノードの説明
+  * 複数のノードを一度に立ち上げるもの
+### 入力
+```
+$ ros2 launch mypkg talk_listen.launch.py
+```
+### 実行結果
+```
+$ ros2 launch mypkg talk_listen.launch.py
+[INFO] [launch]: All log files can be found below /home/benzen0829/.ros/log/2023-12-19-21-45-08-600047-benzen-315
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [317]
+[INFO] [listener-2]: process started with pid [319]
+[listener-2] [INFO] [1702989909.522447086] [listener]: Listen: 0
+[listener-2] [INFO] [1702989910.013168361] [listener]: Listen: 1
+[listener-2] [INFO] [1702989910.512465711] [listener]: Listen: 2
+[listener-2] [INFO] [1702989911.012568964] [listener]: Listen: 3
+[listener-2] [INFO] [1702989911.512992526] [listener]: Listen: 4
+[listener-2] [INFO] [1702989912.012918013] [listener]: Listen: 5
+[listener-2] [INFO] [1702989912.513078479] [listener]: Listen: 6
+[listener-2] [INFO] [1702989913.012894008] [listener]: Listen: 7
+[listener-2] [INFO] [1702989913.513031761] [listener]: Listen: 8
+[listener-2] [INFO] [1702989914.012862938] [listener]: Listen: 9
+[listener-2] [INFO] [1702989914.512864601] [listener]: Listen: 10
 ```
 
 ## 必要なソフトウェア
