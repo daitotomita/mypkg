@@ -1,7 +1,13 @@
 # ROS2 mypkg
 [![test](https://github.com/daitotomita/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/daitotomita/robosys2023/actions/workflows/test.yml)
   * ロボットシステム学2023の練習リポジトリ
-##  talker & listener 
+##  talker & listener
+### ノードの説明
+ * talker
+	* countupを通じて16ビットの符号付き整数のメッセージを送信する
+ * listener
+	* countupからメッセージをもらって表示する
+ 
 ### 入力と実行結果
 端末を2つ用意する
   * 端末1
