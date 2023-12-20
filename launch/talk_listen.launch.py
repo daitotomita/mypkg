@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2023 Daito Tomita <s22C1090CW@s.chibakoudai.jp>
+# SPDX-FileCopyrightText: 2023 Daito Tomita s22C1090CW@s.chibakoudai.jp
 # SPDX-License-Identifier: BSD-3-Clause
 
 import launch
