@@ -2,11 +2,13 @@
 [![test](https://github.com/daitotomita/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/daitotomita/robosys2023/actions/workflows/test.yml)
   * ロボットシステム学2023の練習リポジトリ
 ##  talker & listener
-### ノードの説明
+### 説明
+ * トピック
+	* 今回は/countupというトピックを使用している
  * talker
-	* countupを通じて16ビットの符号付き整数のメッセージを送信する
+	* 数字をカウントして/countupを通じてInt16という型のメッセージを送信するノード
  * listener
-	* countupからメッセージを受け取りその整数が素数であるかを判定する
+	* /countupからメッセージを受け取りその整数が素数であるかを判定するノード
  
 ### 入力
 端末を2つ用意する
@@ -37,8 +39,8 @@ $ ros2 run mypkg listener
 ```
 
 ## launchファイル
-### ノードの説明
-  * 複数のノードを一度に立ち上げるもの
+### 説明
+  * 複数のノードを一度に立ち上げるノード
 ### 入力
 ```
 $ ros2 launch mypkg talk_listen.launch.py
