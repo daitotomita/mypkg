@@ -46,21 +46,21 @@ $ ros2 launch mypkg talk_listen.launch.py
 ### 実行結果
 ```
 $ ros2 launch mypkg talk_listen.launch.py
-[INFO] [launch]: All log files can be found below /home/benzen0829/.ros/log/2023-12-19-21-45-08-600047-benzen-315
+[INFO] [launch]: All log files can be found below /home/benzen0829/.ros/log/2023-12-21-00-10-12-347990-benzen-7229
 [INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [talker-1]: process started with pid [317]
-[INFO] [listener-2]: process started with pid [319]
-[listener-2] [INFO] [1702989909.522447086] [listener]: Listen: 0
-[listener-2] [INFO] [1702989910.013168361] [listener]: Listen: 1
-[listener-2] [INFO] [1702989910.512465711] [listener]: Listen: 2
-[listener-2] [INFO] [1702989911.012568964] [listener]: Listen: 3
-[listener-2] [INFO] [1702989911.512992526] [listener]: Listen: 4
-[listener-2] [INFO] [1702989912.012918013] [listener]: Listen: 5
-[listener-2] [INFO] [1702989912.513078479] [listener]: Listen: 6
-[listener-2] [INFO] [1702989913.012894008] [listener]: Listen: 7
-[listener-2] [INFO] [1702989913.513031761] [listener]: Listen: 8
-[listener-2] [INFO] [1702989914.012862938] [listener]: Listen: 9
-[listener-2] [INFO] [1702989914.512864601] [listener]: Listen: 10
+[INFO] [talker-1]: process started with pid [7231]
+[INFO] [listener-2]: process started with pid [7233]
+[listener-2] [INFO] [listener]: Listen: 0 合成数
+[listener-2] [INFO] [listener]: Listen: 1 合成数
+[listener-2] [INFO] [listener]: Listen: 2 素数
+[listener-2] [INFO] [listener]: Listen: 3 素数
+[listener-2] [INFO] [listener]: Listen: 4 合成数
+[listener-2] [INFO] [listener]: Listen: 5 素数
+[listener-2] [INFO] [listener]: Listen: 6 合成数
+[listener-2] [INFO] [listener]: Listen: 7 素数
+[listener-2] [INFO] [listener]: Listen: 8 合成数
+[listener-2] [INFO] [listener]: Listen: 9 合成数
+[listener-2] [INFO] [listener]: Listen: 10 合成数
 ・・・
 ```
 
