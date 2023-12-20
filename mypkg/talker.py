@@ -22,4 +22,3 @@ def main():
     node = Node("talker")
     talker = Talker(node)
     rclpy.spin(node)
-
