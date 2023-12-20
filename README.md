@@ -6,7 +6,7 @@
  * talker
 	* countupを通じて16ビットの符号付き整数のメッセージを送信する
  * listener
-	* countupからメッセージをもらって表示する
+	* countupからメッセージを受け取りその整数が素数であるかを判定する
  
 ### 入力
 端末を2つ用意する
@@ -22,17 +22,17 @@ $ ros2 run mypkg listener
   * 端末2
 ```
 $ ros2 run mypkg listener
-[INFO] [1702987769.430848671] [listener]: Listen: 50
-[INFO] [1702987769.864603575] [listener]: Listen: 51
-[INFO] [1702987770.364476238] [listener]: Listen: 52
-[INFO] [1702987770.864535967] [listener]: Listen: 53
-[INFO] [1702987771.364151243] [listener]: Listen: 54
-[INFO] [1702987771.864009347] [listener]: Listen: 55
-[INFO] [1702987772.364514492] [listener]: Listen: 56
-[INFO] [1702987772.864555855] [listener]: Listen: 57
-[INFO] [1702987773.364942846] [listener]: Listen: 58
-[INFO] [1702987773.864064285] [listener]: Listen: 59
-[INFO] [1702987774.364653107] [listener]: Listen: 60
+[INFO] [listener]: Listen: 10 合成数
+[INFO] [listener]: Listen: 11 素数
+[INFO] [listener]: Listen: 12 合成数
+[INFO] [listener]: Listen: 13 素数
+[INFO] [listener]: Listen: 14 合成数
+[INFO] [listener]: Listen: 15 合成数
+[INFO] [listener]: Listen: 16 合成数
+[INFO] [listener]: Listen: 17 素数
+[INFO] [listener]: Listen: 18 合成数
+[INFO] [listener]: Listen: 19 素数
+[INFO] [listener]: Listen: 20 合成数
 ・・・
 ```
 
