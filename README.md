@@ -12,7 +12,7 @@
 	* /countupからメッセージを受け取りその整数が素数であるかを判定するノード
  
 ### 入力
-端末を2つ用意する
+端末を2つ用意し、以下のコマンドを実行する
   * 端末1
 ```
 $ ros2 run mypkg talker
@@ -43,6 +43,7 @@ $ ros2 run mypkg listener
 ### 説明
   * 複数のノードを一度に立ち上げるノード
 ### 入力
+以下のコマンドを実行する
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
