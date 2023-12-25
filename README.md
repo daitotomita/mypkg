@@ -5,7 +5,7 @@
 ##  talker & listener
 ### 説明
  * トピック
-	* 今回は/countupというトピックを使用している
+	* /countupというトピックを使用している
  * talker
 	* 数字をカウントして/countupを通じてInt16という型のメッセージを送信するノード
  * listener
